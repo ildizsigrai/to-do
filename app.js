@@ -3,7 +3,7 @@ const newTodoInput = document.getElementById('new-todo-input');
 const addButton = document.getElementById('add-button');
 const deleteButtons = document.getElementsByClassName('delete-button');
 
-let todos = ['Collect eggs', 'Clean'];
+let todos = [];
 
 function renderTodos() {
   todoList.innerHTML = '';
